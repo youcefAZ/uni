@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bw.mc-uni
+Bundle-SymbolicName: bw.mc-uni
+Bundle-Version: 1.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: TIBCO Software Inc.
+Require-Bundle: bw.core_common.sharedmodule;bundle-version="1.1.0"
+TIBCO-BW-Edition: bwe
+TIBCO-BW-Version: 6.8.1 HF1 V43 2022-08-11
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco.bw.module; filter:="(&(name=bw.core_common.xpath)(version=1.1.0))",com.tibco.bw.module; filter:="(&(name=bw.core_common.sharedmodule)(version=1.1.0))"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
